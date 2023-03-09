@@ -10,12 +10,12 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  padding-top: 210px;
-  background: linear-gradient(
-    108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
-  );
+  padding-top: 250px;
+  background:#01bf71; 
+
+  @media screen and (max-width: 480px) {
+    padding-top: 50px;
+  }
 `;
 
 export const FormWrap = styled.div`
@@ -23,7 +23,8 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  margin-top:10%;
+  
   @media screen and (max-width: 480px) {
     height: 80%;
   }
