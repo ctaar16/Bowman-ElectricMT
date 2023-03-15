@@ -67,6 +67,7 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+  text-align: center;
 `;
 
 export const FormButton = styled.button`
